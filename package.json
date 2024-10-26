@@ -1,5 +1,9 @@
 {
   "name": "bsky-issue-report",
   "packageManager": "yarn@4.1.1",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@atproto/api": "^0.13.12",
+    "dotenv": "^16.4.5"
+  }
 }

@@ -5,8 +5,129 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@atproto/api@npm:^0.13.12":
+  version: 0.13.12
+  resolution: "@atproto/api@npm:0.13.12"
+  dependencies:
+    "@atproto/common-web": "npm:^0.3.1"
+    "@atproto/lexicon": "npm:^0.4.2"
+    "@atproto/syntax": "npm:^0.3.0"
+    "@atproto/xrpc": "npm:^0.6.3"
+    await-lock: "npm:^2.2.2"
+    multiformats: "npm:^9.9.0"
+    tlds: "npm:^1.234.0"
+    zod: "npm:^3.23.8"
+  checksum: 10c0/ca5c086d9a26c5d8ea0307fbca0bf01f48acc1cd1acd167f4cc86c54f7f34b216bd21824eb0ec0224109fdfb055bec80488f3a33afc6931b14689fdb6f1d13a4
+  languageName: node
+  linkType: hard
+
+"@atproto/common-web@npm:^0.3.1":
+  version: 0.3.1
+  resolution: "@atproto/common-web@npm:0.3.1"
+  dependencies:
+    graphemer: "npm:^1.4.0"
+    multiformats: "npm:^9.9.0"
+    uint8arrays: "npm:3.0.0"
+    zod: "npm:^3.23.8"
+  checksum: 10c0/9ae59b85a8cfa8d4cd3d29b56a6781136eb868f67a8eee4ffc239d85abb2d810ac5c3a1c95293051ff46383677cee0bc9343e2edfdd1cc906c0ce97865567829
+  languageName: node
+  linkType: hard
+
+"@atproto/lexicon@npm:^0.4.2":
+  version: 0.4.2
+  resolution: "@atproto/lexicon@npm:0.4.2"
+  dependencies:
+    "@atproto/common-web": "npm:^0.3.1"
+    "@atproto/syntax": "npm:^0.3.0"
+    iso-datestring-validator: "npm:^2.2.2"
+    multiformats: "npm:^9.9.0"
+    zod: "npm:^3.23.8"
+  checksum: 10c0/02781ffa72c4a62b7cf241ae100bbc93ab6c39f59543b27e55ed856388e313c88ec5f5340b4dce35bba715332a06310b72b05663367dd05ed32163bf366cf4ae
+  languageName: node
+  linkType: hard
+
+"@atproto/syntax@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "@atproto/syntax@npm:0.3.0"
+  checksum: 10c0/9deed9b6fe393adf22d7ca2a5972e54510c9cc678d27306e383501a70c80770ed3c2c413b9603ab0162ef26079b27ccce8927b122531525c6468f5052f1a6c43
+  languageName: node
+  linkType: hard
+
+"@atproto/xrpc@npm:^0.6.3":
+  version: 0.6.3
+  resolution: "@atproto/xrpc@npm:0.6.3"
+  dependencies:
+    "@atproto/lexicon": "npm:^0.4.2"
+    zod: "npm:^3.23.8"
+  checksum: 10c0/42fa4ee70c16110fa0bb6e7ca3f56a9bd4c421e9facfdac4c21b3be79cfdbcd2aa854ec85080e86da749a08178a0737c98f0e5be55a20613424f403238709f47
+  languageName: node
+  linkType: hard
+
+"await-lock@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "await-lock@npm:2.2.2"
+  checksum: 10c0/bedf00dad44c6325a655bf3bd523ab9e1ce41023da6a8c379990c76ac1d942ac7e5301627ab84ba37917ab5247506ba429b7f6e4bf77074093f255571b9ad5ee
+  languageName: node
+  linkType: hard
+
 "bsky-issue-report@workspace:.":
   version: 0.0.0-use.local
   resolution: "bsky-issue-report@workspace:."
+  dependencies:
+    "@atproto/api": "npm:^0.13.12"
+    dotenv: "npm:^16.4.5"
   languageName: unknown
   linkType: soft
+
+"dotenv@npm:^16.4.5":
+  version: 16.4.5
+  resolution: "dotenv@npm:16.4.5"
+  checksum: 10c0/48d92870076832af0418b13acd6e5a5a3e83bb00df690d9812e94b24aff62b88ade955ac99a05501305b8dc8f1b0ee7638b18493deb6fe93d680e5220936292f
+  languageName: node
+  linkType: hard
+
+"graphemer@npm:^1.4.0":
+  version: 1.4.0
+  resolution: "graphemer@npm:1.4.0"
+  checksum: 10c0/e951259d8cd2e0d196c72ec711add7115d42eb9a8146c8eeda5b8d3ac91e5dd816b9cd68920726d9fd4490368e7ed86e9c423f40db87e2d8dfafa00fa17c3a31
+  languageName: node
+  linkType: hard
+
+"iso-datestring-validator@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "iso-datestring-validator@npm:2.2.2"
+  checksum: 10c0/34f05a6ac62f311feda19328c033d94a2a52789d07b9863fec304ed11f69f8bba7922dc6fef5b88a53bd722ddfd9446a2433cb29459885549f69af16672b6f74
+  languageName: node
+  linkType: hard
+
+"multiformats@npm:^9.4.2, multiformats@npm:^9.9.0":
+  version: 9.9.0
+  resolution: "multiformats@npm:9.9.0"
+  checksum: 10c0/1fdb34fd2fb085142665e8bd402570659b50a5fae5994027e1df3add9e1ce1283ed1e0c2584a5c63ac0a58e871b8ee9665c4a99ca36ce71032617449d48aa975
+  languageName: node
+  linkType: hard
+
+"tlds@npm:^1.234.0":
+  version: 1.255.0
+  resolution: "tlds@npm:1.255.0"
+  bin:
+    tlds: bin.js
+  checksum: 10c0/e7e0434142a2ee80e48c383db53cc94757a9fefd545230fad908a31c235f9f9b9cd1d8232d9bc2bd018050f0e8a912c141d0c79289dda852169199892ba847d0
+  languageName: node
+  linkType: hard
+
+"uint8arrays@npm:3.0.0":
+  version: 3.0.0
+  resolution: "uint8arrays@npm:3.0.0"
+  dependencies:
+    multiformats: "npm:^9.4.2"
+  checksum: 10c0/19efb7d2ba20ec2550d1ca5b453c01ad62e70098e6454d0a446b12991fa5f3286f8ee979e5cec020fac6b4cbbaad4597024dcc8b2c69365af95443cce1323e34
+  languageName: node
+  linkType: hard
+
+"zod@npm:^3.23.8":
+  version: 3.23.8
+  resolution: "zod@npm:3.23.8"
+  checksum: 10c0/8f14c87d6b1b53c944c25ce7a28616896319d95bc46a9660fe441adc0ed0a81253b02b5abdaeffedbeb23bdd25a0bf1c29d2c12dd919aef6447652dd295e3e69
+  languageName: node
+  linkType: hard
